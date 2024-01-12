@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrsp path -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <!-- Font Awesome path -->
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <!-- CSS path -->
+    <link rel="stylesheet" href="CSS/main.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <!-- START OF REGION NAVBAR SECTION -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark text-center py-5"
+      id="navSection"
+    >
+      <div class="container">
+        <img src="imgs/logo.png" alt="wheather logo" class="me-3" />
+        <div class="logoText">
+          <a class="navbar-brand m-0" href="index.html"
+            >Wheather
+            <p class="logo-p m-0 fw-light">tagline goes here</p>
+          </a>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2 mt-lg-0 mt-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Live Cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END OF REGION  -->
+
+    <div class="generalDiv">
+      <!-- START OF REGION INPUT SECTION -->
+      <section class="input-from">
+        <div class="container py-5">
+          <div class="searchContainer position-relative">
+            <input
+              type="text"
+              id="search"
+              class="form-control text-white rounded-pill"
+              placeholder="Find your location...."
+              />
+            <button
+              id="find"
+              class="form-search-button btn rounded-pill px-4 py-2"
+            >
+              Find 
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- END OF REGION -->
+
+      <!-- START OF RAGION WEATHER INFO -->
+      <div class="container">
+        <div class="row " id="myrow">
+        
+        </div>
+      </div>
+      <!-- END OF RAGION -->
+    </div>
+
+    <!-- START OF REGION FOOTER SECTION -->
+    <footer class="">
+      <div class="container py-5">
+        <div class="footerConten row mb-4">
+          <div class="searchSection position-relative col-md-8 g-0">
+            <input
+              type="text"
+              id="search"
+              class="form-control text-white"
+              placeholder="Enter Email To Subscribe...."
+            />
+            <button class="form-search-button btn rounded-pill px-4 py-2">
+              Subscribe
+            </button>
+          </div>
+          <div class="social-links col-md-4 text-md-end mt-md-0 mt-3">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google-plus"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+          </div>
+        </div>
+        <p>
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+    <!-- END OF REGION  -->
+    <!-- Bootstrap Js path -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <!-- Main Js path -->
+    <script src="JS/main.js"></script>
+  </body>
+</html>

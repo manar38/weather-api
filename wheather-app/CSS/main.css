@@ -1,0 +1,169 @@
+/* START OF REGION GENERAL STYLE */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a,
+span {
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+:root {
+  --mainColor: #009ad8;
+  --bgColor: #1e202b;
+}
+/* END OF REGION  */
+
+/* START OF REGION NAVBAR SECTION */
+#navSection .logoText a {
+  font-size: 1.2rem;
+}
+#navSection .logoText a .logo-p {
+  font-size: 0.8rem;
+}
+
+.navbar {
+  background-color: var(--bgColor) !important;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 3.125rem;
+  padding-block: 0.125rem !important;
+  padding-inline: 1.5625rem !important;
+  transition: all 0.4s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--mainColor);
+  border-color: var(--mainColor);
+}
+
+.navbar-nav .nav-link.active {
+  padding-block: 0.125rem;
+  padding-inline: 1.5625rem;
+  color: var(--mainColor);
+  border-color: var(--mainColor);
+}
+/* END OF REGION */
+
+/* START OF REGION INPUT SECTION */
+.generalDiv {
+  background-image: url(../imgs/banner.png);
+  padding-block: 4rem;
+  background-position: center;
+  background-size: cover;
+  min-height: 350px;
+}
+
+#search {
+  background-color: var(--bgColor);
+  border: none;
+  font-size: 0.9375rem;
+  padding-inline: 1.25rem;
+  padding-block: 0.9375rem;
+  border-radius: 100vh;
+}
+
+#search:focus {
+  box-shadow: none;
+  border: none;
+}
+
+#search::placeholder {
+  color: #5a5a5a;
+  font-size: 0.875rem;
+}
+
+.form-search-button {
+  margin: 0.4688rem;
+  top: 0;
+  right: 0;
+  position: absolute;
+  color: white;
+  font-size: 0.875rem;
+  background-color: var(--mainColor);
+}
+
+.form-search-button:hover {
+  background-color: var(--mainColor);
+  color: white;
+}
+
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  background-color: var(--mainColor);
+  color: white;
+  border: var(--mainColor);
+}
+/* END OF REGION */
+
+/* START OF RAGION WEATHER INFO */
+.head {
+  background-color: var(--bgColor);
+}
+
+.days {
+  background-color: #323544 !important;
+}
+/* END OF REGION */
+
+/* START OF REGION CONTACT SECTION */
+.contactSection {
+  background-color: #1e202b;
+}
+.contactSection .navigation {
+  background-color: #262936;
+}
+/* END OF REGION */
+
+/* START OF REGION FOOTER SECTION */
+footer {
+  background-color: #262936 !important;
+}
+
+.social-links i {
+  font-size: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  background-color: #1e202b;
+  color: var(--mainColor);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-links i:hover {
+  color: white;
+  background-color: var(--mainColor);
+}
+
+footer p {
+  color: #c2c2c2;
+  margin-block: 1.5rem;
+}
+/* END OF REGION */
